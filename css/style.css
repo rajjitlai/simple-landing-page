@@ -134,7 +134,7 @@ li a:hover {
     line-height: 30px;
 }
 
-.hero-left button {
+.hero-left .exp-btn {
     align-self: flex-start;
     margin-top: 5%;
     padding: 1rem 3rem;
@@ -148,9 +148,10 @@ li a:hover {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     letter-spacing: 1px;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.hero-left button:hover {
+.hero-left .exp-btn:hover {
     background: #97b6f4;
 }
 
