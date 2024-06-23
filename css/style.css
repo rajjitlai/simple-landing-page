@@ -8,7 +8,7 @@
 }
 
 
-body{
+body {
     height: 100vh;
     width: 100vw;
     background-image: url('/assets/bg.svg');
@@ -20,7 +20,7 @@ body{
     justify-content: center;
 }
 
-.container{
+.container {
     width: 80%;
     margin: auto;
     background: rgba(255, 255, 255, 0.2);
@@ -30,11 +30,11 @@ body{
     backdrop-filter: blur(5px);
 }
 
-main{
+main {
     padding: 1.5% 5%;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -43,52 +43,52 @@ nav{
     height: 100%;
 }
 
-.brand{
+.brand {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.brand img{
+.brand img {
     width: 120px;
 }
 
-.brand span{
+.brand span {
     font-size: 30px;
     font-weight: 600;
     color: #362567;
 }
 
-ul{
+ul {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-li{
+li {
     display: inline-block;
     margin: 0 20px;
 }
 
-li a{
+li a {
     text-decoration: none;
     color: #2b2d69;
     font-size: 22px;
     font-weight: 500;
 }
 
-li a:hover{
+li a:hover {
     color: #4d4075;
 }
 
-.g-started{
+.g-started {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.g-started a{
+.g-started a {
     text-decoration: none;
     color: #d8fffc;
     font-size: 22px;
@@ -98,7 +98,76 @@ li a:hover{
     border-radius: 50px;
 }
 
-.g-started i{
+.g-started i {
     color: #d8fffc;
     font-size: 25px;
+}
+
+.hero-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5%;
+}
+
+.hero-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-left h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #362567;
+    letter-spacing: 2px;
+}
+
+.hero-left p {
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #362567;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.hero-left button {
+    align-self: flex-start;
+    margin-top: 5%;
+    padding: 1rem 3rem;
+    background: #646afb;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.hero-left button:hover {
+    background: #97b6f4;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+.hero-right .img-div {
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-image: url("/assets/hero-image.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
